@@ -30,7 +30,6 @@ The assistant uses:
 - pyttsx3
 - Sentence Transformers
 - Scikit-learn
-- JSON (for intents data)
-- 
+- JSON (for intents data) 
 
 ##  Project Structure
