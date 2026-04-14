@@ -1,0 +1,89 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hello",
+        "hi",
+        "hey",
+        "good morning",
+        "good evening",
+        "is anyone there"
+      ],
+      "responses": [
+        "Hello! How can I help you?",
+        "Hi there ",
+        "Hey! What can I do for you?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you later",
+        "exit",
+        "quit"
+      ],
+      "responses": [
+        "Goodbye! Have a nice day ",
+        "See you later!",
+        "Bye! Come back soon."
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "what is your name",
+        "who are you",
+        "tell me your name"
+      ],
+      "responses": [
+        "I'm your voice assistant ",
+        "You can call me AI assistant",
+        "I'm a simple NLP-based assistant"
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "help",
+        "i need help",
+        "can you help me",
+        "what can you do"
+      ],
+      "responses": [
+        "I can answer simple questions using NLP and similarity matching.",
+        "Try asking me anything like greetings or basic questions.",
+        "I'm here to assist you!"
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "how is the weather",
+        "what is the weather today",
+        "tell me weather",
+        "is it raining"
+      ],
+      "responses": [
+        "I can't check live weather yet, but I can be upgraded to do that ☁️",
+        "Weather feature is coming soon!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thanks",
+        "thank you",
+        "that's helpful",
+        "appreciate it"
+      ],
+      "responses": [
+        "You're welcome ",
+        "Happy to help!",
+        "Anytime!"
+      ]
+    }
+  ]
+}
